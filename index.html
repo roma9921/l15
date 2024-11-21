@@ -1,0 +1,251 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>lesson15</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                blue: {
+                  280: "#0EB4F2"
+                },
+                gray: {
+                  350: '#241F1F',
+                  120: '#D1D1D1',
+                  55: '#F5F7FA',
+                  251: '#CECECE',
+                },
+              },
+              leading: {
+                leading7: "7rem",
+              },
+              width: {
+                '118': '118rem',
+              },
+            },
+          },
+        }
+      </script>
+</head>
+<body>
+    <div class="w-11/12 mx-auto">
+        <header class="header flex justify-between bg-black py-8 pl-16 pr-60">
+            <div class="logo">
+                <h1 class="text-8xl font-bold text-white">
+                    AV-AVIONICS
+                </h1>
+            </div>
+            <div class="ml-24">
+                <div>
+                    <h5 class="text-2xl font-bold text-white mb-3">
+                        Reach the heights of free flight with our advanced technologies.
+                    </h5>
+                </div>
+                <div class="flex justify-between">
+                    <p class="font-medium text-xl text-slate-500 mt-3">
+                        Get in touch with us
+                    </p>
+                    <a class="font-medium text-xl text-sky-600 mt-3" href="tel:+380950183643">+38 (095) 018-36-43</a>
+                    <a class="font-medium text-xl underline text-sky-600 text-base mt-2" href="mailto:avavionicscompany@gmail.com">avavionicscompany@gmail.com</a>
+                </div>
+            </div>
+        </header>
+        <div>
+            <img src="img/dron.png" alt="dron">
+        </div>
+        <div class="flex justify-between p-14 gap-x-32">
+            <div>
+                <div>
+                    <h2 class="text-sky-600 text-7xl font-semibold">AVIATION VIEW</h2>
+                </div>
+                <div class="bg-gray-100 my-16 rounded-xl p-4">
+                    <p class="font-bold text-2xl">HARDWARE DEVELOPMENT</p>
+                    <p class="font-medium text-2xl py-4">
+                        The process of designing and creating physical electronic components and 
+                        systems.
+                    </p>
+                    <div class="flex justify-around">
+                        <img src="img/image 3.png" alt="1">
+                        <img src="img/image 9.png" alt="2">
+                        <img src="img/image 6.png" alt="3">
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-xl p-4">
+                    <p class="font-bold text-2xl">SOFTWARE DEVELOPMENT</p>
+                    <p class="font-medium text-2xl py-4">
+                        It encompasses the development of software that controls hardware and 
+                        facilitates user interaction.
+                    </p>
+                    <div class="flex justify-around">
+                        <img src="img/image 5.png" alt="4">
+                        <img src="img/image 7.png" alt="5">
+                        <img src="img/image 8.png" alt="6">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="mb-16">
+                    <img src="img/prostimage.png" alt="7">
+                </div>
+                <div class="bg-gray-100 rounded-xl p-4">
+                    <p class="font-bold text-2xl">MODELING</p>
+                    <p class="font-medium text-2xl py-4">
+                        The process of creating virtual or mathematical models of 
+                        a system to analyze its behavior and properies.
+                    </p>
+                    <div class="flex justify-around">
+                        <img src="img/image 10.png" alt="8">
+                        <img src="img/image 11.png" alt="9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-black">
+            <div class="products-wrapper grid grid-cols-4 grid-rows-2">
+                <div class="col1 grid col-start-1 col-end-2 row-start-1 row-end-3 items-end">
+                    <img class="justify-self-center" src="img/blimg1.png" alt="10">
+                </div>
+                <div class="info grid col-start-1 col-end-2 row-start-3 row-end-4 justify-self-center justify-items-center">
+                    <h6 class="text-3xl font-bold text-white my-3">Avionics</h6>
+                    <p class="text-sky-700 text-base font-normal">Ground station UAV and Aviation</p>
+                    <button class="rounded-2xl text-white bg-blue-280 px-4 py-1 my-5">Learn more</button>
+                </div>
+                <div class="title grid col-start-2 col-end-4 row-start-1 row-end-2 justify-self-center">
+                    <h3 class="text-white font-bold text-7xl self-center">PRODUCTS SYSTEM</h3>
+                </div>
+                <div class="col2 col-start-2 col-end-3 row-start-2 row-end-3 justify-self-center">
+                    <div class="row-center">
+                        <img src="img/blimg2.png" alt="11">
+                    </div>
+                </div>
+                <div class="info grid col-start-2 col-end-3 row-start-3 row-end-4 justify-self-center justify-items-center">
+                    <h6 class="text-3xl font-bold text-white my-3">Flight controller UAV</h6>
+                    <p class="text-sky-700 text-base font-normal">Drone Kamikaze / FPV</p>
+                    <button class="rounded-2xl text-white bg-blue-280 px-4 py-1 my-5">Learn more</button>
+                </div>
+                <div class="col3 col-start-3 col-end-5 row-start-2 row-end-3 justify-self-center">
+                    <img src="img/blimg3.png" alt="12">
+                </div>
+                <div class="info grid col-start-3 col-end-4 row-start-3 row-end-4 justify-self-center justify-items-center">
+                    <h6 class="text-3xl font-bold text-white my-3">Digital Vieo UAV</h6>
+                    <p class="text-sky-700 text-base font-normal">Digital UAV video link 20-200 km</p>
+                    <button class="rounded-2xl text-white bg-blue-280 px-4 py-1 my-5">Learn more</button>
+                </div>
+                <div class="info grid col-end-5 row-start-3 row-end-4 justify-self-center justify-items-center">
+                    <h6 class="text-3xl font-bold text-white my-3">INS / GNSS / AHRS</h6>
+                    <p class="text-sky-700 text-base font-normal">Military Navigation System</p>
+                    <button class="rounded-2xl text-white bg-blue-280 px-4 py-1 my-5">Learn more</button>
+                </div>
+            </div>
+            <div class="iner-img grid grid-cols-9 gap-x-60 justify-center">
+                <div class="card grid justify-self-center justify-items-center items-center bg-gray-350/35 rounded-md col-start-3 col-end-4 w-52 mt-5">
+                    <img src="img/blimg4.png" alt="13">
+                    <p class="text-sky-600 text-base font-normal self-end text-center mb-5">Ministry of Defence of Ukraine</p>
+                </div>
+                <div class="card grid justify-self-center justify-items-center items-center bg-gray-350/35 rounded-md col-start-4 col-end-5 w-52 mt-5 h-72 pb-6">
+                    <img src="img/blimg5.png" alt="14">
+                    <p class="text-sky-600 text-base font-normal self-end mb-5">Ukrainian Land Forces</p>
+                </div>
+                <div class="card grid justify-self-center justify-items-center items-center bg-gray-350/35 rounded-md col-start-5 col-end-6 w-52 mt-5 pb-6">
+                    <img src="img/blimg6.png" alt="15">
+                    <p class="text-sky-600 text-base font-normal self-end mb-5">AK Vector</p>
+                </div>
+                <div class="card grid justify-self-center justify-items-center items-center bg-gray-350/35 rounded-md col-start-6 col-end-7 w-52 mt-5 pb-6">
+                    <img src="img/blimg7.png" alt="16">
+                    <p class="text-sky-600 text-base font-normal self-end mb-5">Aviasich</p>
+                </div>
+                <div class="card grid justify-self-center justify-items-center items-center bg-gray-350/35 rounded-md col-start-7 col-end-8 w-52 mt-5 pb-6">
+                    <img src="img/blimg8.png" alt="17">
+                    <p class="text-sky-600 text-base font-normal self-end mb-5">Steam HUB</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex w-2/3 mx-auto my-14 bg-gray-55 p-9">
+            <div class="w-1/2 flex flex-col items-center py-3">
+                <h6 class="font-medium text-2xl">Address</h6>
+                <p class="font-normal text-base my-2">Kyiv, Ukraine</p>
+                <h6 class="font-medium text-2xl">Phone</h6>
+                <p class="font-normal text-base my-2">+38 095 018-36-43</p>
+                <h6 class="font-medium text-2xl">Email</h6>
+                <p class="font-normal text-base my-2">avavionicscompany@gmail.com</p>
+                <img class="object-contain h-56 w-44 my-5" src="img/pdfimg.png" alt="18">
+                <h6 class="font-normal text-base my-5">Learn more about our company, products, and areas of operations.</h6>
+                <button class="font-normal text-sm text-white rounded-2xl bg-blue-280 px-4 py-1 my-5">Download</button>
+            </div>
+            <div class="w-1/2 flex flex-col">
+                <div class="bg-white p-11">
+                    <h5 class="font-normal text-3xl">We are always happy to answer your questions</h5>
+                    <form class="flex flex-col" action="#" method="post">
+                        <legend class="font-normal text-sm">Please fill the form below if you have any questions</legend>
+                        <label class="font-normal text-sm" for="name">Name</label>
+                        <input class="h-7 w-full rounded border-solid border-gray-120 border" type="text" id="name" name="name">
+                        <label class="font-normal text-sm" for="email">Email</label>
+                        <input class="h-7 w-full rounded border-solid border-gray-120 border" type="email" id="email" name="email">
+                        <label class="font-normal text-sm" for="phone">Phone number (optional)</label>
+                        <input class="h-7 w-full rounded border-solid border-gray-120 border" type="tel" id="phone" name="phone">
+                        <label class="font-normal text-sm" for="text">Company (optional)</label>
+                        <input class="h-7 w-full rounded border-solid border-gray-120 border" type="text" id="text" name="text">
+                        <label for="message">Message (optional)</label>
+                        <textarea class="w-full rounded border-solid border-gray-120 border" type="text" id="message" name="message" rows="4" cols="50"></textarea>
+                        <input class="font-normal text-sm text-white py-3 bg-blue-280 rounded-3xl mt-5 mb-4" type="submit" value="sent">
+                    </form> 
+                    <p class="font-normal text-sm">Never share sensitive information (credit card numbers, social security numbers, passwords) through this form.</p>
+                    <p class="font-normal text-sm">This site is protected by reCAPTCHA and the Google <span class="text-blue-280">Privacy Policy</span> and <span class="text-blue-280">Terms of Service</span> apply.</p>
+                </div>
+            </div>
+        </div>
+        <div class="wrap bg-black">
+            <footer class="footer flex justify-between py-12 pl-20 pr-80">
+                <div class="logo">
+                    <h2 class="text-8xl font-bold text-white mb-2">AV-AVIONICS</h2>
+                    <p class="font-normal text-base text-white mb-2">Have questions?</p>
+                    <p class="font-normal text-base text-white mb-2">+38 095 018-36-43</p>
+                    <p class="text-xs font-normal text-gray-251/50">24/7 dedicated customer support</p>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <li class="mb-6 ml-3">
+                                <a class="font-normal text-base text-white" href="#">About us</a>
+                            </li>
+                            <li class="mb-6 ml-3">
+                                <a class="font-normal text-base text-white" href="#">Contact</a>
+                            </li>
+                            <li class="mb-6 ml-3">
+                                <a class="font-normal text-base text-white" href="#">Follow us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex gap-x-6">
+                            <li>
+                                <a href="#"><img src="img/icon1.svg" alt="228"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon2.png" alt="229"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon3.png" alt="230"></a>
+                            </li>
+                            <li class="mt-2 ml-4">
+                                <a href="#"><img src="img/icon4.svg" alt="231"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h6 class="font-normal text-base text-white mb-4">Are you aviation owner or a fun?</h6>
+                    <p class="text-xs font-normal text-gray-251/50 mb-4">Enter your email, and we will update you</p>
+                    <p class="text-xs font-normal text-gray-251/50 mb-4">with How-tos, tips, and the latest news on</p>
+                    <p class="text-xs font-normal text-gray-251/50 mb-4">drones & new system aviation!</p>
+                    <button class="text-xs font-normal text-white bg-gray-350 rounded-3xl py-3 px-5 flex justify-between w-full">Email*
+                        <img src="img/Vector.svg" alt="gg"></button>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
